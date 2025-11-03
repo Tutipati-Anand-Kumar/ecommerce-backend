@@ -10,6 +10,7 @@ dotenv.config();
 const app = express();
 const PORT = process.env.PORT || 5000;
 
+
 // Middleware
 const allowedOrigins = ['http://localhost:3000', 'https://ecommerce-frontend-iota-dusky.vercel.app', 'http://localhost:5173'];
 
