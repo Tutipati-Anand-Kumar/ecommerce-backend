@@ -1,7 +1,6 @@
 // models/Product.js
 
 const mongoose = require('mongoose');
-
 const productSchema = new mongoose.Schema({
   externalId: { type: Number, unique: true }, // For API IDs
   name: { type: String, required: true },
